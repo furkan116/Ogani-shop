@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" media="(max-width: 768px)" href="css/tablet.css">
+  <link rel="stylesheet" media="(max-width: 768px)" href="css/mobile.css">
+</head>
+
+<body>
+  <div class="top-information">
+    <div class="container">
+      <div>
+        <div>
+          <div>
+            <i class="fas fa-envelope"></i>
+            <span>hello@colorlib.com</span>
+          </div>
+          <div>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+            <i class="fas fa-user"></i>
+            <span>Login</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div>
+      <div class="header box">
+        <a href="#" class="header__logo">
+          <img src="https://colorlib.com/preview/theme/ogani/img/logo.png" />
+        </a>
+        <div class="nav header__nav">
+          <a class="nav__link nav__link--active" href="#">Home</a>
+          <a class="nav__link" href="#">Shop</a>
+          <a class="nav__link mobile-header" href="#">Pages</a>
+          <a class="nav__link" href="#">Blog</a>
+          <a class="nav__link mobile-header" href="#">Contact</a>
+        </div>
+        <div class="header__cart">
+          <span><i class="fas fa-heart"></i></span>
+          <span><i class="fas fa-shopping-basket"></i></span>
+        </div>
+      </div>
+
+      <section class="mainpage">
+        <div class="side-menu">
+          <div class="dropdown">
+            <button class="dropbtn">
+              <div>
+                <i class="fas fa-bars"></i>
+                <span style="padding-left: 0.5rem;">All departments</span>
+              </div>
+              <div>
+                <i class="fas fa-angle-down"></i>
+              </div>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Fresh Meats</a>
+              <a href="#">Vegetables</a>
+              <a href="#">Fruit & Nut Gifts</a>
+              <a href="#">Fresh Berries</a>
+              <a href="#">Ocean Foods</a>
+              <a href="#">Butter & Eggs</a>
+              <a href="#">Fastfood</a>
+              <a href="#">Fresh Onion</a>
+              <a href="#">Papaya & Crisps</a>
+              <a href="#">Oatmeal</a>
+              <a href="#">Fresh Bananas</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="main-store-page">
+          <div>
+            <div class="main-store-page-search">
+              <form action="#">
+                <div>
+                  <div>
+                    <span>
+                      <select name="categories" id="categories">
+                        <option value="all-categories">All Categories</option>
+                      </select>
+                    </span>
+                    <input type="text" placeholder="What do you need?">
+                  </div>
+                  <div>
+                    <button type="submit">SEARCH</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="main-store-page-contact">
+              <div>
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <div>
+                <p>(211) 457-1089</p>
+                <span>support 24/7 time</span>
+              </div>
+            </div>
+          </div>
+          <div class="main-banner">
+            <img src="images/main-banner.png">
+          </div>
+        </div>
+      </section>
+
+      <section class="categories-images">
+        <div>
+          <img src="images/categories/cat-1.jpg" alt="Fresh Fruit">
+          <div>
+            <button type="submit">Fresh Fruit</button>
+          </div>
+        </div>
+        <div>
+          <img src="images/categories/cat-2.jpg" alt="Dried Fruit">
+          <div>
+            <button type="submit">Dried Fruit</button>
+          </div>
+        </div>
+        <div>
+          <img src="images/categories/cat-3.jpg" alt="Vegetables">
+          <div>
+            <button type="submit">Vegetables</button>
+          </div>
+        </div>
+        <div>
+          <img src="images/categories/cat-4.jpg" alt="Drink Fruit">
+          <div>
+            <button type="submit">Drink Fruit</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="featured-products">
+        <span>Featured Products</span>
+        <hr>
+        <div class="featured-control">
+          <ul id="featured-control-buttons">
+            <li><button class="featured-button" data-filter="*">All</button></li>
+            <li><button class="featured-button" data-filter="oranges">Oranges</button></li>
+            <li><button class="featured-button" data-filter="fresh-meat">Fresh Meat</button></li>
+            <li><button class="featured-button" data-filter="vegetables">Vegetables</button></li>
+            <li><button class="featured-button" data-filter="fastfood">Fastfood</button></li>
+          </ul>
+        </div>
+        <div class="featured-control-products">
+          <div class="fresh-meat" id="featured-product-control">
+            <img src="images/featured/feature-1.jpg" alt="">
+            <span><a href="#">Crab Pool Security</a></span>
+            <div>
+              <span>$30.00</span>
+            </div>
+          </div>
+          <div class="oranges" id="featured-product-control">
+            <img src="images/featured/feature-2.jpg" alt="">
+            <span><a href="#">Crab Pool Security</a></span>
+            <div>
+              <span>$30.00</span>
+            </div>
+          </div>
+          <div class="oranges" id="featured-product-control">
+            <img src="images/featured/feature-3.jpg" alt="">
+            <span><a href="#">Crab Pool Security</a></span>
+            <div>
+              <span>$30.00</span>
+            </div>
+          </div>
+          <div class="vegetables" id="featured-product-control">
+            <img src="images/featured/feature-4.jpg" alt="">
+            <span><a href="#">Crab Pool Security</a></span>
+            <div>
+              <span>$30.00</span>
+            </div>
+          </div>
+          <div class="vegetables" id="featured-product-control">
+            <img src="images/featured/feature-5.jpg" alt="">
+            <span><a href="#">Crab Pool Security</a></span>
+            <div>
+              <span>$30.00</span>
+            </div>
+          </div>
+          <div class="fastfood" id="featured-product-control">
+            <img src="images/featured/feature-6.jpg" alt="">
+            <span><a href="#">Crab Pool Security</a></span>
+            <div>
+              <span>$30.00</span>
+            </div>
+          </div>
+          <div class="oranges" id="featured-product-control">
+            <img src="images/featured/feature-7.jpg" alt="">
+            <span><a href="#">Crab Pool Security</a></span>
+            <div>
+              <span>$30.00</span>
+            </div>
+          </div>
+          <div class="vegetables" id="featured-product-control">
+            <img src="images/featured/feature-8.jpg" alt="">
+            <span><a href="#">Crab Pool Security</a></span>
+            <div>
+              <span>$30.00</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="double-banner">
+        <div>
+          <img src="images//banner/banner-1.jpg" alt="">
+        </div>
+        <div>
+          <img src="images//banner/banner-2.jpg" alt="">
+        </div>
+      </section>
+
+      <section class="bottom-product-slider">
+        <div id="latest-products">
+          <div>
+            <div class="bottom-product-slider-header">
+              <span>Latest Products</span>
+              <div>
+                <button><i class="fas fa-angle-left"></i></button>
+                <button><i class="fas fa-angle-right"></i></button>
+              </div>
+            </div>
+            <div class="bottom-product-slider-products">
+              <div>
+                <img src="images/latest-product/lp-1.jpg" alt="">
+                <div>
+                  <span><a href="">Crap Pool Security</a></span>
+                  <span>$30.00</span>
+                </div>
+              </div>
+              <div>
+                <img src="images/latest-product/lp-2.jpg" alt="">
+                <div>
+                  <span><a href="">Crap Pool Security</a></span>
+                  <span>$30.00</span>
+                </div>
+              </div>
+              <div>
+                <img src="images/latest-product/lp-3.jpg" alt="">
+                <div>
+                  <span><a href="">Crap Pool Security</a></span>
+                  <span>$30.00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="top-rated-products">
+          <div>
+            <div class="bottom-product-slider-header">
+              <span>Top Rated Products</span>
+              <div>
+                <button><i class="fas fa-angle-left"></i></button>
+                <button><i class="fas fa-angle-right"></i></button>
+              </div>
+            </div>
+            <div class="bottom-product-slider-products">
+              <div>
+                <img src="images/latest-product/lp-1.jpg" alt="">
+                <div>
+                  <span><a href="">Crap Pool Security</a></span>
+                  <span>$30.00</span>
+                </div>
+              </div>
+              <div>
+                <img src="images/latest-product/lp-2.jpg" alt="">
+                <div>
+                  <span><a href="">Crap Pool Security</a></span>
+                  <span>$30.00</span>
+                </div>
+              </div>
+              <div>
+                <img src="images/latest-product/lp-3.jpg" alt="">
+                <div>
+                  <span><a href="">Crap Pool Security</a></span>
+                  <span>$30.00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="review-products">
+          <div>
+            <div class="bottom-product-slider-header">
+              <span>Review Products</span>
+              <div>
+                <button><i class="fas fa-angle-left"></i></button>
+                <button><i class="fas fa-angle-right"></i></button>
+              </div>
+            </div>
+            <div class="bottom-product-slider-products">
+              <div>
+                <img src="images/latest-product/lp-1.jpg" alt="">
+                <div>
+                  <span><a href="">Crap Pool Security</a></span>
+                  <span>$30.00</span>
+                </div>
+              </div>
+              <div>
+                <img src="images/latest-product/lp-2.jpg" alt="">
+                <div>
+                  <span><a href="">Crap Pool Security</a></span>
+                  <span>$30.00</span>
+                </div>
+              </div>
+              <div>
+                <img src="images/latest-product/lp-3.jpg" alt="">
+                <div>
+                  <span><a href="">Crap Pool Security</a></span>
+                  <span>$30.00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="from-the-blog">
+        <span>From The Blog</span>
+        <hr>
+        <div>
+          <div class="from-the-blog-item">
+            <div class="from-the-blog-image">
+              <img src="images/blog/blog-1.jpg" alt="">
+            </div>
+            <div class="from-the-blog-text">
+              <ul>
+                <li><i class="far fa-calendar"></i> May 4,2019</li>
+                <li><i class="far fa-comment"></i> 5</li>
+              </ul>
+              <h5>Cooking Tips Make Cooking Simple</h5>
+              <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat</p>
+            </div>
+          </div>
+          <div class="from-the-blog-item">
+            <div class="from-the-blog-image">
+              <img src="images/blog/blog-2.jpg" alt="">
+            </div>
+            <div class="from-the-blog-text">
+              <ul>
+                <li><i class="far fa-calendar"></i> May 4,2019</li>
+                <li><i class="far fa-comment"></i> 5</li>
+              </ul>
+              <h5>6 Ways To Prepare Breakfast For 30</h5>
+              <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat</p>
+            </div>
+          </div>
+          <div class="from-the-blog-item">
+            <div class="from-the-blog-image">
+              <img src="images/blog/blog-3.jpg" alt="">
+            </div>
+            <div class="from-the-blog-text">
+              <ul>
+                <li><i class="far fa-calendar"></i> May 4,2019</li>
+                <li><i class="far fa-comment"></i> 5</li>
+              </ul>
+              <h5>Visit The Clean Farm In The US</h5>
+              <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div>
+        <div class="footer-items">
+          <div class="footer-item-left">
+            <a href="#" class="header__logo">
+              <img src="https://colorlib.com/preview/theme/ogani/img/logo.png" />
+            </a>
+            <span>Address: 60-49 Road 11378 New York</span>
+            <span>Phone: +65 11.188.888</span>
+            <span>Email: hello@colorlib.com</span>
+          </div>
+          <div class="footer-item-center">
+            <span>Useful Links</span>
+            <div>
+              <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">About Our Shopping</a></li>
+                <li><a href="#">Secure Shopping</a></li>
+                <li><a href="#">Delivery infomation</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Our Sitemap</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">Who We Are</a></li>
+                <li><a href="#">Our Services</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Innovation</a></li>
+                <li><a href="#">Testimonials</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-item-right">
+            <span>Join Our Newsletter Now</span>
+            <p>Get E-mail updates about our latest shop and special offers.</p>
+            <form action="#">
+              <div>
+                <div class="footer-item-right-input">
+                  <input type="text" placeholder="What do you need?">
+                </div>
+                <div class="footer-item-right-button">
+                  <button type="submit">SEARCH</button>
+                </div>
+              </div>
+            </form>
+            <div>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-pinterest"></i></a>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="footer-footer">
+          <p>Copyright ©2020 All rights reserved | This template is made with  by <i class="fas fa-heart"></i> <a href="https://colorlib.com/preview/theme/ogani/">Colorlib</a></p>
+          <div>
+            <img src="images/payment-item.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+  <script src="https://kit.fontawesome.com/09a9ad6644.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

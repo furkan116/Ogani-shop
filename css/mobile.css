@@ -1,0 +1,161 @@
+  /* Header */
+
+  .header__cart>span {
+      display: none;
+  }
+
+  .nav__link {
+      color: #252525;
+      font-weight: 700;
+      font-size: 1rem;
+      text-decoration: none;
+      transition: color 0.4s;
+  }
+
+  .mobile-header {
+      display: none;
+  }
+
+  /* MAINPAGE */
+
+  .mainpage {
+      display: flex;
+  }
+
+  /* Side Menu */
+
+  .side-menu {
+      display: none;
+  }
+
+  /*  Main Store Page */
+
+  .main-store-page {
+      width: 100%;
+  }
+
+  .main-store-page>div {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+
+  .main-store-page-search {
+      width: 100%;
+  }
+
+  .main-store-page-contact {
+      display: none;
+  }
+
+  /* Categories Images */
+
+  .categories-images {
+      display: none;
+  }
+
+  /* Featured Products */
+
+  .featured-control>ul {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      padding-left: 0%;
+      justify-content: space-between;
+  }
+
+  .featured-control>ul>li>button {
+      width: 100%;
+      background-color: #ffffff;
+      color: #000000;
+      font-size: 0.85rem;
+      border: none;
+      cursor: pointer;
+      outline: none;
+  }
+
+  .featured-control-products {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+
+  .featured-control-products>div {
+      padding-top: 2rem;
+      width: 48%;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+  }
+
+  /* Double Banner */
+
+  .double-banner>div {
+      width: 100%;
+  }
+
+  /* Bottom Product Sliders */
+
+  .bottom-product-slider {
+      padding-top: 1rem;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  }
+
+  .bottom-product-slider>div {
+      padding-top: 2rem;
+      width: 100%;
+  }
+
+  #review-products {
+      width: 100%;
+      display: block;
+  }
+
+  /* From The Blog */
+
+  .from-the-blog>div {
+      padding-top: 1rem;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  }
+
+  .from-the-blog>div>div {
+      padding-top: 2rem;
+      width: 100%;
+  }
+
+  /* Footer */
+
+  .footer-items {
+      width: 100%;
+      padding-top: 2rem;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+
+  .footer-items>div {
+      padding-top: 1rem;
+      width: 100%;
+  }
+
+  .footer-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-footer>p {
+    text-decoration: none;
+    color: #949596;
+    font-size: 0.75rem;
+    line-height: 32px;
+  }
+  
