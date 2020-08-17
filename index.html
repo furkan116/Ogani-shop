@@ -7,7 +7,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="css/index.css" />
   <link rel="stylesheet" media="(max-width: 768px)" href="css/tablet.css">
-  <link rel="stylesheet" media="(max-width: 768px)" href="css/mobile.css">
+  <link rel="stylesheet" media="(max-width: 500px)" href="css/mobile.css">
 </head>
 
 <body>
@@ -15,18 +15,14 @@
     <div class="container">
       <div>
         <div>
-          <div>
-            <i class="fas fa-envelope"></i>
-            <span>hello@colorlib.com</span>
-          </div>
-          <div>
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-            <a href="#"><i class="fab fa-pinterest-p"></i></a>
-            <i class="fas fa-user"></i>
-            <span>Login</span>
-          </div>
+          <i class="fas fa-envelope"></i>
+          <span>hello@colorlib.com</span>
+        </div>
+        <div>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-pinterest-p"></i></a>
         </div>
       </div>
     </div>
@@ -47,13 +43,13 @@
         </div>
         <div class="header__cart">
           <span><i class="fas fa-heart"></i></span>
-          <span><i class="fas fa-shopping-basket"></i></span>
+          <span><i class="fas fa-shopping-basket"></i> $150.00</span>
         </div>
       </div>
 
       <section class="mainpage">
         <div class="side-menu">
-          <div class="dropdown">
+          <div class="dropdown active">
             <button class="dropbtn">
               <div>
                 <i class="fas fa-bars"></i>
@@ -84,7 +80,7 @@
             <div class="main-store-page-search">
               <form action="#">
                 <div>
-                  <div>
+                  <div class="main-store-page-search-search">
                     <span>
                       <select name="categories" id="categories">
                         <option value="all-categories">All Categories</option>
@@ -92,8 +88,8 @@
                     </span>
                     <input type="text" placeholder="What do you need?">
                   </div>
-                  <div>
-                    <button type="submit">SEARCH</button>
+                  <div class="main-store-page-search-button">
+                    <button type="submit">Search</button>
                   </div>
                 </div>
               </form>
@@ -108,10 +104,11 @@
               </div>
             </div>
           </div>
-          <div class="main-banner">
-            <img src="images/main-banner.png">
-          </div>
         </div>
+      </section>
+
+      <section class="main-banner">
+        <a href="#"><img src="images/main-banner.png"></a>
       </section>
 
       <section class="categories-images">
@@ -146,7 +143,7 @@
         <hr>
         <div class="featured-control">
           <ul id="featured-control-buttons">
-            <li><button class="featured-button" data-filter="*">All</button></li>
+            <li><button class="featured-button" data-filter="all">All</button></li>
             <li><button class="featured-button" data-filter="oranges">Oranges</button></li>
             <li><button class="featured-button" data-filter="fresh-meat">Fresh Meat</button></li>
             <li><button class="featured-button" data-filter="vegetables">Vegetables</button></li>
@@ -215,10 +212,10 @@
 
       <section class="double-banner">
         <div>
-          <img src="images//banner/banner-1.jpg" alt="">
+          <a href="#"><img src="images//banner/banner-1.jpg" alt=""></a>
         </div>
         <div>
-          <img src="images//banner/banner-2.jpg" alt="">
+          <a href="#"><img src="images//banner/banner-2.jpg" alt=""></a>
         </div>
       </section>
 
@@ -228,8 +225,7 @@
             <div class="bottom-product-slider-header">
               <span>Latest Products</span>
               <div>
-                <button><i class="fas fa-angle-left"></i></button>
-                <button><i class="fas fa-angle-right"></i></button>
+                <button>See All</button>
               </div>
             </div>
             <div class="bottom-product-slider-products">
@@ -262,8 +258,7 @@
             <div class="bottom-product-slider-header">
               <span>Top Rated Products</span>
               <div>
-                <button><i class="fas fa-angle-left"></i></button>
-                <button><i class="fas fa-angle-right"></i></button>
+                <button>See All</button>
               </div>
             </div>
             <div class="bottom-product-slider-products">
@@ -296,8 +291,7 @@
             <div class="bottom-product-slider-header">
               <span>Review Products</span>
               <div>
-                <button><i class="fas fa-angle-left"></i></button>
-                <button><i class="fas fa-angle-right"></i></button>
+                <button>See All</button>
               </div>
             </div>
             <div class="bottom-product-slider-products">
@@ -380,7 +374,7 @@
       <div>
         <div class="footer-items">
           <div class="footer-item-left">
-            <a href="#" class="header__logo">
+            <a href="#" class="footer__logo">
               <img src="https://colorlib.com/preview/theme/ogani/img/logo.png" />
             </a>
             <span>Address: 60-49 Road 11378 New York</span>
@@ -422,19 +416,16 @@
               </div>
             </form>
             <div>
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-pinterest"></i></a>
+              <a href="#"><i class="fab fa-facebook-f facebook-icon"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-pinterest"></i></a>
             </div>
           </div>
         </div>
         <hr>
         <div class="footer-footer">
-          <p>Copyright ©2020 All rights reserved | This template is made with  by <i class="fas fa-heart"></i> <a href="https://colorlib.com/preview/theme/ogani/">Colorlib</a></p>
-          <div>
-            <img src="images/payment-item.png" alt="">
-          </div>
+          <img src="images/payment-item.png" alt="">
         </div>
       </div>
     </div>
