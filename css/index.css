@@ -396,7 +396,7 @@ html, body {
   width: 48%;
 }
 
-.double-banner>div>img {
+.double-banner>div>a>img {
   width: 100%;
 }
 

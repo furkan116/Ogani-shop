@@ -15,7 +15,7 @@ function toggle(key) {
         if(key == allControl) {
             e.setAttribute("style", "display : block");
         }
-        else if (key == e.id) {
+        else if (key == e.className) {
             e.setAttribute("style", "display : block");
         }
         else {

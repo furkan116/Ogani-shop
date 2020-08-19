@@ -5,15 +5,8 @@
   }
 
   .nav__link {
-      color: #252525;
-      font-weight: 700;
-      font-size: 1rem;
-      text-decoration: none;
-      transition: color 0.4s;
-  }
-
-  .mobile-header {
-      display: none;
+      font-size: 0.8rem;
+      margin-right: 25px;
   }
 
   /* MAINPAGE */
@@ -37,11 +30,18 @@
   .main-store-page>div {
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
   }
 
   .main-store-page-search {
       width: 100%;
+  }
+
+  .main-store-page-search-search>span {
+      display: none;
+  }
+
+  .main-store-page-search-search>input {
+      width: 90%;
   }
 
   .main-store-page-contact {
@@ -57,36 +57,16 @@
   /* Featured Products */
 
   .featured-control>ul {
-      display: flex;
-      flex-direction: row;
       width: 100%;
       padding-left: 0%;
-      justify-content: space-between;
   }
 
   .featured-control>ul>li>button {
-      width: 100%;
-      background-color: #ffffff;
-      color: #000000;
-      font-size: 0.85rem;
-      border: none;
-      cursor: pointer;
-      outline: none;
-  }
-
-  .featured-control-products {
-      width: 100%;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
+      font-size: 0.75rem;
   }
 
   .featured-control-products>div {
-      padding-top: 2rem;
       width: 48%;
-      display: flex;
-      flex-direction: column;
-      text-align: center;
   }
 
   /* Double Banner */
@@ -147,15 +127,29 @@
   }
 
   .footer-footer {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
   }
-  
+
   .footer-footer>p {
-    text-decoration: none;
-    color: #949596;
-    font-size: 0.75rem;
-    line-height: 32px;
+      text-decoration: none;
+      color: #949596;
+      font-size: 0.75rem;
+      line-height: 32px;
   }
-  
+
+  /* SHOP PAGE */
+
+  .type-filter>ul>li {
+    width: 100%;
+  }
+
+  .shop-store-products {
+      width: 100%;
+      column-gap: 5%;
+  }
+
+  .shop-store-product-item {
+    width: 47.5%;
+}

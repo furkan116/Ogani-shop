@@ -10,6 +10,15 @@ allButtons.forEach(function(e) {
 
 function toggle(key) {
     const items = document.querySelectorAll('.shop-store-product-item')
+
+    allButtons.forEach(function(e) {
+        if(key == e.getAttribute('data-filter')) {
+            e.parentElement.setAttribute("style", "color : #7fad39")
+        }
+        else {
+            e.parentElement.setAttribute("style", "color : #000000")
+        }
+    })
     
     items.forEach(function(e) {
         if(key == allControl) {
