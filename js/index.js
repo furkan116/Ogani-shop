@@ -11,6 +11,15 @@ allButtons.forEach(function(e) {
 function toggle(key) {
     const items = document.querySelectorAll('#featured-product-control')
     
+    allButtons.forEach(function(e){
+        if(key == e.getAttribute('data-filter')) {
+            e.setAttribute("style", "color : #7fad39")
+        }
+        else {
+            e.setAttribute("style", "color : #000000")
+        }
+    })
+
     items.forEach(function(e) {
         if(key == allControl) {
             e.setAttribute("style", "display : block");

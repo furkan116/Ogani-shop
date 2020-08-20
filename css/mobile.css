@@ -141,15 +141,25 @@
 
   /* SHOP PAGE */
 
-  .type-filter>ul>li {
-    width: 100%;
-  }
-
-  .shop-store-products {
-      width: 100%;
-      column-gap: 5%;
-  }
-
   .shop-store-product-item {
     width: 47.5%;
+}
+
+/* BLOG PAGE */
+
+@media screen and (max-width: 500px) {
+    .carousel__snapper>a>h2 {
+        font-size: 1.5rem;
+    }
+    .carousel {
+        padding-top: 200px;
+    }
+    .main-store-page-search-search> input {
+        width: 60%;
+      }
+}
+
+.blog-item {
+    width: 100%;
+    padding-top: 2rem;
 }

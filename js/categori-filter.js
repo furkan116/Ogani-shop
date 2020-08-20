@@ -13,10 +13,10 @@ function toggle(key) {
 
     allButtons.forEach(function(e) {
         if(key == e.getAttribute('data-filter')) {
-            e.parentElement.setAttribute("style", "color : #7fad39")
+            e.setAttribute("style", "color : #7fad39")
         }
         else {
-            e.parentElement.setAttribute("style", "color : #000000")
+            e.setAttribute("style", "color : #000000")
         }
     })
     

@@ -47,7 +47,7 @@
 }
 
 .type-filter>ul>li>button:hover {
-    color: #7fad39;
+    color: #7fad39!important;
 }
 
 .shop-store-products {

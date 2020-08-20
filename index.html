@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ogani Shop</title>
+  <title>Ogani Shop/Home</title>
   <link rel="stylesheet" href="css/index.css" />
   <link rel="stylesheet" media="(max-width: 1176px)" href="css/tablet.css">
   <link rel="stylesheet" media="(max-width: 480px)" href="css/mobile.css">
@@ -36,8 +36,8 @@
         </a>
         <div class="nav header__nav">
           <a class="nav__link nav__link--active" href="/Web/ogani shop/index.html">Home</a>
-          <a class="nav__link" href="pages/shop.html">Shop</a>
-          <a class="nav__link" href="#">Blog</a>
+          <a class="nav__link" href="/Web/ogani shop/pages/shop.html">Shop</a>
+          <a class="nav__link" href="/Web/ogani shop/pages/blog.html">Blog</a>
           <a class="nav__link" href="#">Contact</a>
         </div>
         <div class="header__cart">
@@ -142,7 +142,7 @@
         <hr>
         <div class="featured-control">
           <ul id="featured-control-buttons">
-            <li><button class="featured-button" data-filter="all">All</button></li>
+            <li><button style="color: #7fad39;" class="featured-button" data-filter="all">All</button></li>
             <li><button class="featured-button" data-filter="oranges">Oranges</button></li>
             <li><button class="featured-button" data-filter="fresh-meat">Fresh Meat</button></li>
             <li><button class="featured-button" data-filter="vegetables">Vegetables</button></li>
@@ -325,43 +325,49 @@
         <hr>
         <div>
           <div class="from-the-blog-item">
-            <div class="from-the-blog-image">
-              <img src="images/blog/blog-1.jpg" alt="">
-            </div>
-            <div class="from-the-blog-text">
-              <ul>
-                <li><i class="far fa-calendar"></i> May 4,2019</li>
-                <li><i class="far fa-comment"></i> 5</li>
-              </ul>
-              <h5>Cooking Tips Make Cooking Simple</h5>
-              <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat</p>
-            </div>
+            <a href="#">
+              <div class="from-the-blog-image">
+                <img src="images/blog/blog-1.jpg" alt="">
+              </div>
+              <div class="from-the-blog-text">
+                <ul>
+                  <li><i class="far fa-calendar"></i> May 4,2019</li>
+                  <li><i class="far fa-comment"></i> 5</li>
+                </ul>
+                <h5>Cooking Tips Make Cooking Simple</h5>
+                <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat</p>
+              </div>
+            </a>
           </div>
           <div class="from-the-blog-item">
-            <div class="from-the-blog-image">
-              <img src="images/blog/blog-2.jpg" alt="">
-            </div>
-            <div class="from-the-blog-text">
-              <ul>
-                <li><i class="far fa-calendar"></i> May 4,2019</li>
-                <li><i class="far fa-comment"></i> 5</li>
-              </ul>
-              <h5>6 Ways To Prepare Breakfast For 30</h5>
-              <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat</p>
-            </div>
+            <a href="#">
+              <div class="from-the-blog-image">
+                <img src="images/blog/blog-2.jpg" alt="">
+              </div>
+              <div class="from-the-blog-text">
+                <ul>
+                  <li><i class="far fa-calendar"></i> May 4,2019</li>
+                  <li><i class="far fa-comment"></i> 5</li>
+                </ul>
+                <h5>6 Ways To Prepare Breakfast For 30</h5>
+                <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat</p>
+              </div>
+            </a>
           </div>
           <div class="from-the-blog-item">
-            <div class="from-the-blog-image">
-              <img src="images/blog/blog-3.jpg" alt="">
-            </div>
-            <div class="from-the-blog-text">
-              <ul>
-                <li><i class="far fa-calendar"></i> May 4,2019</li>
-                <li><i class="far fa-comment"></i> 5</li>
-              </ul>
-              <h5>Visit The Clean Farm In The US</h5>
-              <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat</p>
-            </div>
+            <a href="#">
+              <div class="from-the-blog-image">
+                <img src="images/blog/blog-3.jpg" alt="">
+              </div>
+              <div class="from-the-blog-text">
+                <ul>
+                  <li><i class="far fa-calendar"></i> May 4,2019</li>
+                  <li><i class="far fa-comment"></i> 5</li>
+                </ul>
+                <h5>Visit The Clean Farm In The US</h5>
+                <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat</p>
+              </div>
+            </a>
           </div>
         </div>
       </section>
@@ -407,7 +413,7 @@
             <form action="#">
               <div>
                 <div class="footer-item-right-input">
-                  <input type="text" placeholder="What do you need?">
+                  <input type="text" placeholder="Enter your e-mail">
                 </div>
                 <div class="footer-item-right-button">
                   <button type="submit">Subscribe</button>
@@ -424,7 +430,7 @@
         </div>
         <hr>
         <div class="footer-footer">
-          <img src="images/payment-item.png" alt="">
+          <img src="/Web/ogani shop/images/payment-item.png" alt="">
         </div>
       </div>
     </div>

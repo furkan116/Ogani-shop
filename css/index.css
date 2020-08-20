@@ -67,7 +67,13 @@ html, body {
   height: 100%;
 }
 
+.header__cart {
+  padding-left: 0.25rem;
+  background-color: #7fad39;
+}
+
 .header__cart>span {
+  color: #FFFFFF;
   padding-right: 0.25rem;
   cursor: pointer;
   font-weight: 600;
@@ -86,8 +92,16 @@ html, body {
   margin-right: 0;
 }
 
-.nav__link:hover, .nav__link--active, .header__cart>span:hover, .top-information>div>div>div>a:hover {
+.nav__link:hover, .nav__link--active, .top-information>div>div>div>a:hover {
   color: #7fad39;
+}
+
+.header__cart>span:hover {
+  color: #000000;
+}
+
+.header__cart>span:first-child:hover {
+  color: #FF0000;
 }
 
 /* MAINPAGE */
@@ -99,8 +113,8 @@ html, body {
 /* Side Menu */
 
 .side-menu {
-  width: 25%;
-  padding-right: 2rem;
+  width: 18%;
+  padding-right: 4rem;
 }
 
 .dropbtn {
@@ -148,7 +162,7 @@ html, body {
 /*  Main Store Page */
 
 .main-store-page {
-  width: 75%;
+  width: 80%;
 }
 
 .main-store-page>div {
@@ -158,7 +172,7 @@ html, body {
 }
 
 .main-store-page-search {
-  width: calc(75% - 50px);
+  width: 80%;
 }
 
 .main-store-page-search>form>div {
@@ -188,7 +202,7 @@ html, body {
 
 .main-store-page-search-search> input {
   padding: 16px;
-  width: 58%;
+  width: 66%;
   font-size: 16px;
   border: none;
   outline: none;
@@ -211,7 +225,7 @@ html, body {
 }
 
 .main-store-page-contact {
-  width: 22%;
+  width: 20%;
   display: flex;
   justify-content: space-between;
 }
@@ -340,12 +354,7 @@ html, body {
 }
 
 .featured-control>ul>li>button:hover {
-  color: #7fad39;
-  /*content:'';
-  display:inline-block;
-  margin-top: 0%;
-  width:60%;
-  border-bottom:0.11rem solid #7fad39;*/
+  color: #7fad39!important;
 }
 
 .featured-control-products {
@@ -526,6 +535,11 @@ html, body {
   width: 30%;
 }
 
+.from-the-blog-item>a {
+  color: #000000;
+  text-decoration: none;
+}
+
 .from-the-blog-image {
   width: 100%;
 }
@@ -546,7 +560,7 @@ html, body {
   padding: 0;
   margin: 0;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 
 .from-the-blog-text>ul>li {
@@ -556,7 +570,7 @@ html, body {
 }
 
 .from-the-blog-text>ul>li:first-child {
-  padding-right: 0rem;
+  padding-right: 1rem;
 }
 
 .from-the-blog-text>h5 {
