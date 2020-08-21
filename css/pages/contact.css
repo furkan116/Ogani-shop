@@ -1,0 +1,35 @@
+/* CONTACT PAGE */
+
+.contact-main {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact-main-item {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact-main-item>i {
+    color: #7fad39;
+    font-size: 3rem;
+}
+
+.contact-main-item>h2 {
+    margin-bottom: 0rem;
+}
+
+.contact-map {
+    padding-top: 2rem;
+}
+
+.contact-map>iframe {
+    width: 100%;
+}

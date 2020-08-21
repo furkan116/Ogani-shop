@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ogani Shop/Shop</title>
+    <title>Ogani Shop/Contact</title>
     <link rel="stylesheet" href="/Web/ogani shop/css/index.css">
-    <link rel="stylesheet" href="/Web/ogani shop/css/pages/shop.css">
+    <link rel="stylesheet" href="/Web/ogani shop/css/pages/contact.css">
     <link rel="stylesheet" media="(max-width: 1176px)" href="/Web/ogani shop/css/tablet.css">
     <link rel="stylesheet" media="(max-width: 480px)" href="/Web/ogani shop/css/mobile.css">
 </head>
@@ -37,9 +37,9 @@
                 </a>
                 <div class="nav header__nav">
                     <a class="nav__link" href="/Web/ogani shop/index.html">Home</a>
-                    <a class="nav__link nav__link--active" href="/Web/ogani shop/pages/shop.html">Shop</a>
+                    <a class="nav__link" href="/Web/ogani shop/pages/shop.html">Shop</a>
                     <a class="nav__link" href="/Web/ogani shop/pages/blog.html">Blog</a>
-                    <a class="nav__link" href="/Web/ogani shop/pages/contact.html">Contact</a>
+                    <a class="nav__link nav__link--active" href="/Web/ogani shop/pages/contact.html">Contact</a>
                 </div>
                 <div class="header__cart">
                     <span><i class="fas fa-heart"></i></span>
@@ -107,101 +107,32 @@
                 </div>
             </section>
 
-            <section class="shop-store">
-                <div class="shop-store-filter">
-                    <div class="type-filter">
-                        <h2>Categories</h2>
-                        <ul id="type-filter-control-buttons">
-                            <li><button style="color: #7fad39;" class="type-filter-button" data-filter="all">All</button></li>
-                            <li><button class="type-filter-button" data-filter="oranges">Oranges</button></li>
-                            <li><button class="type-filter-button" data-filter="fresh-meat">Fresh Meat</button></li>
-                            <li><button class="type-filter-button" data-filter="vegetables">Vegetables</button></li>
-                            <li><button class="type-filter-button" data-filter="fastfood">Fastfood</button></li>
-                            <li><button class="type-filter-button" data-filter="drinks">Drinks</button></li>
-                            <li><button class="type-filter-button" data-filter="dry-fruit">Dry Fruit</button></li>
-                            <li><button class="type-filter-button" data-filter="mix">Mix</button></li>
-                        </ul>
-                    </div>
-                    <div class="price-filter">
-                        <h2>Price</h2>
-                        <form class="form-price-filter" action="">
-                            <input type="number" min="0" placeholder="min">
-                            <input type="number" max="100" placeholder="max">
-                        </form>
-                    </div>
-                    <div class="delivery-time">
-                        <h2>Delivery Time</h2>
-                        <ul>
-                            <li><button>Today</button></li>
-                            <li><button>Tomorrow</button></li>
-                            <li><button>In Three Days</button></li>
-                            <li><button>In Five Days</button></li>
-                            <li><button>In a Week</button></li>
-                        </ul>
-                    </div>
+            <section class="contact-main">
+                <div class="contact-main-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <h2>Phone</h2>
+                    <span>(211) 457-1089</span>
                 </div>
-                <div class="shop-store-products" id="fresh-meat">
-                    <div class="shop-store-product-item">
-                        <img src="/Web/ogani shop/images/shop-products/product-1.jpg" alt="">
-                        <span><a href="#">Crab Pool Security</a></span>
-                        <p>$30.00</p>
-                    </div>
-                    <div class="shop-store-product-item" id="oranges">
-                        <img src="/Web/ogani shop/images/shop-products/product-2.jpg" alt="">
-                        <span><a href="#">Crab Pool Security</a></span>
-                        <p>$30.00</p>
-                    </div>
-                    <div class="shop-store-product-item" id="oranges">
-                        <img src="/Web/ogani shop/images/shop-products/product-3.jpg" alt="">
-                        <span><a href="#">Crab Pool Security</a></span>
-                        <p>$30.00</p>
-                    </div>
-                    <div class="shop-store-product-item" id="vegetables">
-                        <img src="/Web/ogani shop/images/shop-products/product-4.jpg" alt="">
-                        <span><a href="#">Crab Pool Security</a></span>
-                        <p>$30.00</p>
-                    </div>
-                    <div class="shop-store-product-item" id="fastfood">
-                        <img src="/Web/ogani shop/images/shop-products/product-5.jpg" alt="">
-                        <span><a href="#">Crab Pool Security</a></span>
-                        <p>$30.00</p>
-                    </div>
-                    <div class="shop-store-product-item" id="oranges">
-                        <img src="/Web/ogani shop/images/shop-products/product-6.jpg" alt="">
-                        <span><a href="#">Crab Pool Security</a></span>
-                        <p>$30.00</p>
-                    </div>
-                    <div class="shop-store-product-item" id="vegetables">
-                        <img src="/Web/ogani shop/images/shop-products/product-7.jpg" alt="">
-                        <span><a href="#">Crab Pool Security</a></span>
-                        <p>$30.00</p>
-                    </div>
-                    <div class="shop-store-product-item" id="vegetables">
-                        <img src="/Web/ogani shop/images/shop-products/product-8.jpg" alt="">
-                        <span><a href="#">Crab Pool Security</a></span>
-                        <p>$30.00</p>
-                    </div>
-                    <div class="shop-store-product-item" id="dry-fruit">
-                        <img src="/Web/ogani shop/images/shop-products/product-9.jpg" alt="">
-                        <span><a href="#">Crab Pool Security</a></span>
-                        <p>$30.00</p>
-                    </div>
-                    <div class="shop-store-product-item" id="fresh-meat">
-                        <img src="/Web/ogani shop/images/shop-products/product-10.jpg" alt="">
-                        <span><a href="#">Crab Pool Security</a></span>
-                        <p>$30.00</p>
-                    </div>
-                    <div class="shop-store-product-item" id="drinks">
-                        <img src="/Web/ogani shop/images/shop-products/product-11.jpg" alt="">
-                        <span><a href="#">Crab Pool Security</a></span>
-                        <p>$30.00</p>
-                    </div>
-                    <div class="shop-store-product-item" id="mix">
-                        <img src="/Web/ogani shop/images/shop-products/product-12.jpg" alt="">
-                        <span><a href="#">Crab Pool Security</a></span>
-                        <p>$30.00</p>
-                    </div>
+                <div class="contact-main-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h2>Address</h2>
+                    <span>60-49 Road 11378 New York</span>
                 </div>
+                <div class="contact-main-item">
+                    <i class="far fa-clock"></i>
+                    <h2>Open Time</h2>
+                    <span>10:00 am to 23:00 pm</span>
+                </div>
+                <div class="contact-main-item">
+                    <i class="far fa-envelope"></i>
+                    <h2>E-mail</h2>
+                    <span>hello@colorlib.com</span>
+                </div>
+
+            </section>
+
+            <section class="contact-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.8273232779084!2d-73.92205318497656!3d40.721817644952566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25eb95b03849f%3A0x5ffecc60fa578b05!2s60%2049th%20Pl%2C%20Maspeth%2C%20NY%2011378%2C%20USA!5e0!3m2!1sen!2str!4v1598010349835!5m2!1sen!2str" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>    
             </section>
         </div>
     </div>
