@@ -200,3 +200,23 @@ ol, li {
     width: 47.5%;
     padding-top: 2rem;
 }
+
+/* SHOP STORE */
+
+.shop-store-filter {
+    width: calc(25% - 30px);
+}
+
+.shop-store-products {
+    width: 75%;
+}
+
+.shop-store-product-item {
+    width: 47.5%;
+}
+
+/* CONTACT PAGE */
+
+.contact-form-button {
+    width: 20%;
+}
