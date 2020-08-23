@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ogani Shop/Shop</title>
+    <title>Ogani Shop/Product</title>
     <link rel="stylesheet" href="/Web/ogani shop/css/index.css">
-    <link rel="stylesheet" href="/Web/ogani shop/css/pages/shop.css">
+    <link rel="stylesheet" href="/Web/ogani shop/css/pages/product-page.css">
     <link rel="stylesheet" media="(max-width: 1176px)" href="/Web/ogani shop/css/tablet.css">
     <link rel="stylesheet" media="(max-width: 480px)" href="/Web/ogani shop/css/mobile.css">
 </head>
@@ -37,7 +37,7 @@
                 </a>
                 <div class="nav header__nav">
                     <a class="nav__link" href="/Web/ogani shop/index.html">Home</a>
-                    <a class="nav__link nav__link--active" href="/Web/ogani shop/pages/shop.html">Shop</a>
+                    <a class="nav__link" href="/Web/ogani shop/pages/shop.html">Shop</a>
                     <a class="nav__link" href="/Web/ogani shop/pages/blog.html">Blog</a>
                     <a class="nav__link" href="/Web/ogani shop/pages/contact.html">Contact</a>
                 </div>
@@ -107,100 +107,83 @@
                 </div>
             </section>
 
-            <section class="shop-store">
-                <div class="shop-store-filter">
-                    <div class="type-filter">
-                        <h2>Categories</h2>
-                        <ul id="type-filter-control-buttons">
-                            <li><button style="color: #7fad39;" class="type-filter-button" data-filter="all">All</button></li>
-                            <li><button class="type-filter-button" data-filter="oranges">Oranges</button></li>
-                            <li><button class="type-filter-button" data-filter="fresh-meat">Fresh Meat</button></li>
-                            <li><button class="type-filter-button" data-filter="vegetables">Vegetables</button></li>
-                            <li><button class="type-filter-button" data-filter="fastfood">Fastfood</button></li>
-                            <li><button class="type-filter-button" data-filter="drinks">Drinks</button></li>
-                            <li><button class="type-filter-button" data-filter="dry-fruit">Dry Fruit</button></li>
-                            <li><button class="type-filter-button" data-filter="mix">Mix</button></li>
-                        </ul>
+            <section class="product-main">
+                <div class="product-image">
+                    <img src="/Web/ogani shop/images/shop-products/product-1.jpg" alt="">
+                </div>
+                <div class="product-information">
+                    <div class="product-information-top">
+                        <h1 class="product-information-name">Fresh Meat 500g </h1>
+                        <div class="product-information-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
                     </div>
-                    <div class="price-filter">
-                        <h2>Price</h2>
-                        <form class="form-price-filter" action="">
-                            <input type="number" min="0" placeholder="min">
-                            <input type="number" max="100" placeholder="max">
-                        </form>
+                    <div class="product-information-price">
+                        <p>$30.00</p>
                     </div>
-                    <div class="delivery-time">
-                        <h2>Delivery Time</h2>
-                        <ul>
-                            <li><button>Today</button></li>
-                            <li><button>Tomorrow</button></li>
-                            <li><button>In Three Days</button></li>
-                            <li><button>In Five Days</button></li>
-                            <li><button>In a Week</button></li>
-                        </ul>
+                    <div class="product-information-middle">
+                        <div class="product-information-amount">
+                            <button class="product-information-amount-button"
+                                id="product-information-amount-button-decrease">-</button>
+                            <input class="product-information-amount-input" value="1" type="text"
+                                id="product-information-amount-input">
+                            <button class="product-information-amount-button"
+                                id="product-information-amount-button-increase">+</button>
+                        </div>
+                        <button class="product-information-addCart">Add to Cart</button>
+                        <span class="product-information-deliveryTime">Delivery Time: Today</span>
+                    </div>
+                    <div class="product-information-bottom">
+                        <h3>Product Information:</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum eum esse sint repellat error,
+                            eos ipsam ut vitae minus totam et nemo, deleniti cupiditate! Nemo facilis odio nisi
+                            praesentium facere voluptas voluptatum. Fugit consequatur, minima mollitia nam aut, quis
+                            accusantium ipsam itaque nesciunt sapiente eligendi iusto animi quaerat debitis ex similique
+                            est libero? Voluptatem optio officia magni, laborum libero quod suscipit asperiores rem,
+                            modi dolorem fugit. Consequuntur nesciunt animi libero voluptatum reiciendis dicta sint ab!
+                        </p>
                     </div>
                 </div>
-                <div class="shop-store-products">
-                    <div class="shop-store-product-item">
-                        <img src="/Web/ogani shop/images/shop-products/product-1.jpg" alt="">
-                        <span><a href="/Web/ogani shop/pages/product-page.html">Crab Pool Security</a></span>
-                        <p>$30.00</p>
-                    </div>
-                    <div class="shop-store-product-item" id="oranges">
+            </section>
+
+            <section class="similar-products">
+                <div class="similar-product-item" id="oranges">
+                    <a href="product-page.html">
                         <img src="/Web/ogani shop/images/shop-products/product-2.jpg" alt="">
-                        <span><a href="/Web/ogani shop/pages/product-page.html">Crab Pool Security</a></span>
+                        <span>Crab Pool Security</span>
                         <p>$30.00</p>
-                    </div>
-                    <div class="shop-store-product-item" id="oranges">
+                    </a>
+                </div>
+                <div class="similar-product-item" id="oranges">
+                    <a href="product-page.html">
                         <img src="/Web/ogani shop/images/shop-products/product-3.jpg" alt="">
-                        <span><a href="/Web/ogani shop/pages/product-page.html">Crab Pool Security</a></span>
+                        <span>Crab Pool Security</span>
                         <p>$30.00</p>
-                    </div>
-                    <div class="shop-store-product-item" id="vegetables">
+                    </a>
+                </div>
+                <div class="similar-product-item" id="oranges">
+                    <a href="product-page.html">
                         <img src="/Web/ogani shop/images/shop-products/product-4.jpg" alt="">
-                        <span><a href="/Web/ogani shop/pages/product-page.html">Crab Pool Security</a></span>
+                        <span>Crab Pool Security</span>
                         <p>$30.00</p>
-                    </div>
-                    <div class="shop-store-product-item" id="fastfood">
+                    </a>
+                </div>
+                <div class="similar-product-item" id="oranges">
+                    <a href="product-page.html">
                         <img src="/Web/ogani shop/images/shop-products/product-5.jpg" alt="">
-                        <span><a href="/Web/ogani shop/pages/product-page.html">Crab Pool Security</a></span>
+                        <span>Crab Pool Security</span>
                         <p>$30.00</p>
-                    </div>
-                    <div class="shop-store-product-item" id="oranges">
-                        <img src="/Web/ogani shop/images/shop-products/product-6.jpg" alt="">
-                        <span><a href="/Web/ogani shop/pages/product-page.html">Crab Pool Security</a></span>
-                        <p>$30.00</p>
-                    </div>
-                    <div class="shop-store-product-item" id="vegetables">
-                        <img src="/Web/ogani shop/images/shop-products/product-7.jpg" alt="">
-                        <span><a href="/Web/ogani shop/pages/product-page.html">Crab Pool Security</a></span>
-                        <p>$30.00</p>
-                    </div>
-                    <div class="shop-store-product-item" id="vegetables">
-                        <img src="/Web/ogani shop/images/shop-products/product-8.jpg" alt="">
-                        <span><a href="/Web/ogani shop/pages/product-page.html">Crab Pool Security</a></span>
-                        <p>$30.00</p>
-                    </div>
-                    <div class="shop-store-product-item" id="dry-fruit">
-                        <img src="/Web/ogani shop/images/shop-products/product-9.jpg" alt="">
-                        <span><a href="/Web/ogani shop/pages/product-page.html">Crab Pool Security</a></span>
-                        <p>$30.00</p>
-                    </div>
-                    <div class="shop-store-product-item" id="fresh-meat">
-                        <img src="/Web/ogani shop/images/shop-products/product-10.jpg" alt="">
-                        <span><a href="/Web/ogani shop/pages/product-page.html">Crab Pool Security</a></span>
-                        <p>$30.00</p>
-                    </div>
-                    <div class="shop-store-product-item" id="drinks">
-                        <img src="/Web/ogani shop/images/shop-products/product-11.jpg" alt="">
-                        <span><a href="/Web/ogani shop/pages/product-page.html">Crab Pool Security</a></span>
-                        <p>$30.00</p>
-                    </div>
-                    <div class="shop-store-product-item" id="mix">
-                        <img src="/Web/ogani shop/images/shop-products/product-12.jpg" alt="">
-                        <span><a href="/Web/ogani shop/pages/product-page.html">Crab Pool Security</a></span>
-                        <p>$30.00</p>
-                    </div>
+                    </a>
+                </div>
+            </section>
+
+            <section class="product-comments">
+                <div>
+                    
                 </div>
             </section>
         </div>
@@ -268,8 +251,8 @@
         </div>
     </footer>
 
-    <script src="/Web/ogani shop/js/categori-filter.js"></script>
     <script src="https://kit.fontawesome.com/09a9ad6644.js" crossorigin="anonymous"></script>
+    <script src="/Web/ogani shop/js/amount-changer.js"></script>
 </body>
 
 </html>
