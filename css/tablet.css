@@ -191,9 +191,9 @@ ol, li {
     .carousel {
         padding-top: 350px;
     }
-    .main-store-page-search-search> input {
+    .main-store-page-search-search>input {
         width: 60%;
-      }
+    }
 }
 
 .blog-item {
@@ -219,4 +219,22 @@ ol, li {
 
 .contact-form-button {
     width: 20%;
+}
+
+/* PRODUCT PAGE */
+
+@media screen and (max-width: 950px) {
+    .product-image {
+        width: 100%;
+    }
+    .product-image>img {
+        height: 700px;
+    }
+    .product-information {
+        width: 100%;
+    }
+    /* Product Comments */
+    .comment-item {
+        width: 100%;
+    }
 }
