@@ -281,3 +281,9 @@
       margin-right: 10%;
       width: 20%;
   }
+
+  /* Top Products */
+
+  .top-products-products-item {
+      width: 48%;
+  }
