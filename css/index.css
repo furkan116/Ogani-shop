@@ -68,12 +68,15 @@ html, body {
 }
 
 .header__cart {
+  align-items: center;
+  font-size: 22px;
   padding-left: 0.25rem;
-  background-color: #7fad39;
+  
+  height: 40px;
+  
 }
 
 .header__cart>span {
-  color: #FFFFFF;
   padding-right: 0.25rem;
   cursor: pointer;
   font-weight: 600;
@@ -96,8 +99,8 @@ html, body {
   color: #7fad39;
 }
 
-.header__cart>span:hover {
-  color: #000000;
+.header__cart>span:last-child:hover {
+  color: #7fad39;
 }
 
 .header__cart>span:first-child:hover {
